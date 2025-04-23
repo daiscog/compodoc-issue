@@ -1,8 +1,8 @@
 export default {
-  displayName: 'compodoc-issue',
+  displayName: 'foo',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/compodoc-issue',
+  coverageDirectory: '../../coverage/libs/foo',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
